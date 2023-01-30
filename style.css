@@ -1,0 +1,17 @@
+h1 {
+  color: red;
+  text-transform: uppercase;
+}
+h1 span {
+  color: blue;
+  font-size: 150%;
+  cursor: pointer;
+}
+h1 span:hover {
+  color: red;
+}
+@media screen and (max-width: 600px) {
+  h1 span {
+    color: green;
+  }
+}
